@@ -11,7 +11,7 @@ var Eloquent *gorm.DB
 
 func init() {
 	var err error
-	Eloquent, err = gorm.Open("mysql", "root:shigz/1314@/shigz?charset=utf8&parseTime=True&loc=Local")
+	Eloquent, err = gorm.Open("mysql", "root:******@/shigz?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		fmt.Println("failed to connnect mysql,err:", err)
 	}
